@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  padding: 5vh;
+  align-items: center;
+  position: absolute;
+}
+.userDetailsArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  width: 100%;
+  margin-bottom: 3vh;
+}
+.todosArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: max-content;
+  width: 100%;
+}
+
+.userDetail {
+  border: 1px rgb(71, 78, 55) dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+  margin: 1vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.titles {
+  font-size: 2.5vh;
+  margin: 1vh;
+  text-decoration: underline;
+}

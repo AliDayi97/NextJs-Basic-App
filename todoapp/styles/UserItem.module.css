@@ -1,0 +1,6 @@
+.container {
+  border: 1vh rgb(219, 162, 162) solid;
+  margin: 2vh;
+  display: flex;
+  justify-content: center;
+}
